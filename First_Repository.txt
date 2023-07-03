@@ -4,10 +4,10 @@ Right Click on this file --> Open the Terminal --> type 'git init'
 ctrl + H --> To show or hide 
 T: git status
 // Nothing is added or commited... First_Repository --> Red color text
-T: git add .
+T: git add . (by placing '.' all the files will be added)
 T: git status
 // New File... First_Repository --> Green color text
-T: git commit .m "first commit"
+T: git commit -m "first commit"
 // System will ask the eMail address
 T: git config --global user.email "jagannadhbevara@gmail.com"
 T: git config --global user.name "jagannadhbevara"
@@ -15,10 +15,21 @@ T: git config --global user.name "jagannadhbevara"
 T: git config user.name
 T: git config user.email
 // Now type the same command for commit
-T: git commit .m "first commit"
-// 1 file changed and 2 insertions
+T: git commit -m "first commit"
+// 1 file changed and (No. of rows added in the file) 24 insertions
 // Goto github and copy the path --> git remote add origin https...
-T: paste it here
-T: git push .u orgin master
-// Username and password
+T: Right click and paste it here
+T: git push -u orgin master
+// Username 
+// password: password Authentication removed from Aug 13 2021
+/// github account --> click on right side top
+/// click on settings
+/// Setting page opens --> scroll down, check on left side 'Developer Settings' and click
+/// Developer Settings page opens --> left side click on 'Personal Access Tokens'
+/// click on 'Generate New Token'
+/// Provide Token Name... Access Days... Check the Access types
+/// Copy the Access Token: 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
+T: git push -u orgin master
+// Username
+// Password: right click and paste 
 Refresh the github and the file is present there
