@@ -31,5 +31,12 @@ T: git push -u orgin master
 /// Copy the Access Token: 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
 T: git push -u orgin master
 // Username
-// Password: right click and paste 
+// Password: right click and paste (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)
 Refresh the github and the file is present there
+// Any changes done in this file, then it need to be commited once again to view in github
+T: git add .
+T: git commit -m "Second Commit"
+T: git push (copy paste the url from github) master
+// Username
+// Password: right click and paste (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)
+Refresh the github and check the changes done in the file
