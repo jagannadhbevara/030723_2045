@@ -1,0 +1,24 @@
+This is my first file to upload to github
+Push to github
+Right Click on this file --> Open the Terminal --> type 'git init'
+ctrl + H --> To show or hide 
+T: git status
+// Nothing is added or commited... First_Repository --> Red color text
+T: git add .
+T: git status
+// New File... First_Repository --> Green color text
+T: git commit .m "first commit"
+// System will ask the eMail address
+T: git config --global user.email "jagannadhbevara@gmail.com"
+T: git config --global user.name "jagannadhbevara"
+// to check whether system idenfied the user name and email
+T: git config user.name
+T: git config user.email
+// Now type the same command for commit
+T: git commit .m "first commit"
+// 1 file changed and 2 insertions
+// Goto github and copy the path --> git remote add origin https...
+T: paste it here
+T: git push .u orgin master
+// Username and password
+Refresh the github and the file is present there
