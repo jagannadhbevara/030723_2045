@@ -1,0 +1,16 @@
+T: git add . (by placing '.' all the files will be added)
+T: git status
+T: git commit -m "first commit"
+T: git config --global user.email "jagannadhbevara@gmail.com"
+T: git config --global user.name "jagannadhbevara"
+T: git config user.name
+T: git config user.email
+T: git commit -m "first commit"
+T: Right click and paste it here
+T: git push -u orgin master
+// Password: right click and paste (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)
+Refresh the github and the file is present there
+T: git add .
+T: git commit -m "Second Commit"
+T: git push (copy paste the url from github) master
+Refresh the github and check the changes done in the file
