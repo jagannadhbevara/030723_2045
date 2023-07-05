@@ -8,7 +8,7 @@ T: git add . (by placing '.' all the files will be added)
 T: git status
 // New File... First_Repository --> Green color text
 T: git commit -m "first commit"
-// System will ask the eMail address
+// System will ask the eMail address and Username
 T: git config --global user.email "jagannadhbevara@gmail.com"
 T: git config --global user.name "jagannadhbevara"
 // to check whether system idenfied the user name and email
@@ -22,7 +22,7 @@ T: Right click and paste it here
 T: git push -u orgin master
 // Username 
 // password: password Authentication removed from Aug 13 2021
-/// github account --> click on right side top
+/// github account --> click on right side top image
 /// click on settings
 /// Setting page opens --> scroll down, check on left side 'Developer Settings' and click
 /// Developer Settings page opens --> left side click on 'Personal Access Tokens'

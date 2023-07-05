@@ -1,0 +1,9 @@
+Here we are adding a new branch
+Goto the folder of git
+Rightclick and open the terminal
+T: git branch github_repo_newbrach
+T: git checkout
+
+T: touch Third_Repository.txt
+//add code in Third_Repository.txt file
+T: git status
