@@ -1,0 +1,6 @@
+goto github account
+click on repository
+On the top... there will be setting button - click it
+Left side vertical window opens - click on Email notification (below integration)
+provide the email id and click on add notification
+Email notification will be triggered if any changes done on github account on the repository

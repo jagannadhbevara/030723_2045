@@ -1,3 +1,4 @@
+Access Token: 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
 Here we are adding a new branch
 Goto the folder of git
 Rightclick and open the terminal
@@ -6,4 +7,8 @@ T: git checkout
 
 T: touch Third_Repository.txt
 //add code in Third_Repository.txt file
-T: git status
+T: git status //untracked files
+T: git add .
+T: git commit -m "Adding New Branch"
+T: git status //nothing to commit
+T: git push origin github_repo_newbrach
