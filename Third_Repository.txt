@@ -1,10 +1,10 @@
-Access Token: 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
+Access Token 040723_2210: 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
+Access Token 050723_2045: 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
 Here we are adding a new branch
 Goto the folder of git
 Rightclick and open the terminal
 T: git branch github_repo_newbrach
 T: git checkout
-
 T: touch Third_Repository.txt
 //add code in Third_Repository.txt file
 T: git status //untracked files
@@ -12,3 +12,13 @@ T: git add .
 T: git commit -m "Adding New Branch"
 T: git status //nothing to commit
 T: git push origin github_repo_newbrach
+// Refresh the github page... 2 branches will be visible - Master & Added New Branch
+// Check out to the master
+T: git checkout master
+T: git push -u origin master
+// when we want to merge then we need to checkout to master first
+T: git merge github_repo_newbrach
+// Once merged we can (if needed) delete the newly created branch
+T: git branch -d "branch name" // will delete the branch from the local
+T: git push origin --delete "branch name" // Will deleter from the remote
+With Kiran on GIT 
